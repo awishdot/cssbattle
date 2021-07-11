@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head><!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<div></div>
+<style>
+body {
+backgroud: #293462;
+height: 100%;
+display: grid;
+place-items: center;
+
+}
+div {
+position:relative;
+width: 200px;
+height:200px;
+background : #fff1c1;
+border-radius: 50%;
+margin-top: -18px;
+overflow:hiden;
+}
+
+div::before{
+position: absolute;
+content: '';
+width:120px;
+height:180px;
+background: #fe5f55;
+top: 74px;
+right: 21px;
+transform: rotate(45deg);
+}
+
+
+div::after{
+position: absolute;
+content: '';
+width:150px;
+height:50px;
+background: #fe5f55;
+top: 137px;
+left: 6px;
+transform: rotate(45deg);
+}
+
+</style>
+
+</body>
+</html>
